@@ -3,5 +3,32 @@ requires = [
     "wheel",
     "setuptools",
     "cython",
-    "numpy",
+    "numpy>=1.20",
 ]
+
+[project]
+name = "monotonic_align"
+version = "1.2"
+description = "A Cython library for monotonic alignment"
+authors = [
+    {name = "Kyubyong Park", email = "kbpark.linguist@gmail.com"},
+]
+dependencies = ["numpy"]
+requires-python = ">=3.7"
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.urls]
+Homepage = "https://github.com/kyubyong/monotonic_align"
+Repository = "https://github.com/kyubyong/monotonic_align"
