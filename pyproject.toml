@@ -10,9 +10,6 @@ requires = [
 name = "monotonic_align"
 version = "1.2"
 description = "A Cython library for monotonic alignment"
-authors = [
-    {name = "Kyubyong Park", email = "kbpark.linguist@gmail.com"},
-]
 dependencies = ["numpy"]
 requires-python = ">=3.7"
 readme = "README.md"
@@ -30,5 +27,4 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/kyubyong/monotonic_align"
-Repository = "https://github.com/kyubyong/monotonic_align"
+Repository = "https://github.com/goju2025/monotonic_align"
